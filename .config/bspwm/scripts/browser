@@ -1,0 +1,8 @@
+#!/bin/sh
+
+pgrep brave >/dev/null
+if [ $? -eq 0 ]; then
+	bspc desktop -f '^6'
+else
+	brave &
+fi
