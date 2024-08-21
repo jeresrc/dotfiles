@@ -1,0 +1,8 @@
+#!/bin/sh
+
+pgrep obsidian >/dev/null
+if [ $? -eq 0 ]; then
+  bspc desktop -f '^2'
+else
+  obsidian &
+fi

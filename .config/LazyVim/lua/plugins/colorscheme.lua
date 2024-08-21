@@ -3,7 +3,8 @@ return {
   { "ellisonleao/gruvbox.nvim" },
   { "catppuccin/nvim", as = "catppuccin" },
   { "folke/tokyonight.nvim" },
-  { "oxfist/night-owl.nvim" },
+  { "EdenEast/nightfox.nvim" },
+  { "jeresc/night-owl.nvim" },
   {
     "jeresc/vesper.nvim",
     config = function()
