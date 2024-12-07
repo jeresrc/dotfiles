@@ -229,6 +229,7 @@ alias gupv='git pull --rebase -v'
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign -m "--wip-- [skip ci]"'
 alias p="pnpm"
+alias py="python3"
 alias px="pnpm dlx"
 alias pd="pnpm dev"
 alias v="nvim"

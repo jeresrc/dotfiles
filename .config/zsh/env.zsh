@@ -11,6 +11,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export GPG_TTY="${TTY:-$(tty)}"
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 
 export SUDO_PROMPT="passwd: "
 export TERMINAL="alacritty"
