@@ -1,5 +1,5 @@
 return {
-  "telescope.nvim",
+  "nvim-telescope/telescope.nvim",
   dependencies = {
     { "theprimeagen/git-worktree.nvim" },
   },

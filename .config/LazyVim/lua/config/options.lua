@@ -8,6 +8,7 @@ vim.o.foldlevelstart = 99
 vim.o.foldenable = true
 
 vim.g.lazyvim_prettier_needs_config = true
+vim.g.snacks_animate = false
 
 -- set linebreak
 vim.o.wrap = true
