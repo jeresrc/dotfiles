@@ -235,7 +235,7 @@ alias pd="pnpm dev"
 alias v="nvim"
 alias vim="nvim"
 alias lg="lazygit"
-alias t="tmux"
+alias t="zellij"
 alias zv='_zv'
 
 # vim:ft=zsh

@@ -12,6 +12,7 @@ export GPG_TTY="${TTY:-$(tty)}"
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
+export PATH=$PATH:/usr/local/go/bin
 
 export SUDO_PROMPT="passwd: "
 export TERMINAL="alacritty"
@@ -83,5 +84,8 @@ export FZF_DEFAULT_OPTS="
 
 # Add Mason LSP to PATH
 export PATH=$PATH:~/.local/share/nvim/mason/bin
+
+# Homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # vim:ft=zsh:nowrap
