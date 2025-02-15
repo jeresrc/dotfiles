@@ -88,4 +88,7 @@ export PATH=$PATH:~/.local/share/nvim/mason/bin
 # Homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+# fnm
+eval "$(fnm env --use-on-cd --shell zsh)"
+
 # vim:ft=zsh:nowrap
