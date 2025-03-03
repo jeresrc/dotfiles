@@ -25,7 +25,7 @@ function _smooth_fzf() {
 }
 
 function _dir_fzf() {
-  cd ~ && cd $(find ~/dev -type d \( -name node_modules -o -name .git \) -prune -o -name '*' -type d   -print | fzf)
+  cd ~ && cd $(find /hdd/ -type d \( -name node_modules -o -name .git \) -prune -o -name '*' -type d   -print | fzf)
 }
 
 function _sudo_replace_buffer() {

@@ -55,9 +55,8 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
-
-beautiful.useless_gap = 3
+-- beautiful.init(os.getenv("HOME") .. "/.config/awesome/default/theme.lua")
+beautiful.init("~/.config/awesome/default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
