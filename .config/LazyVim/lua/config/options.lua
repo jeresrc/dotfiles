@@ -10,6 +10,8 @@ vim.o.foldenable = true
 vim.g.lazyvim_prettier_needs_config = true
 vim.g.snacks_animate = false
 
+vim.g.ai_cmp = false
+
 -- set linebreak
 vim.o.wrap = true
 vim.o.linebreak = true

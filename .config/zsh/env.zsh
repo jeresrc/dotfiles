@@ -14,6 +14,10 @@ export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
 
+export ANDROID_HOME="/hdd/android-studio/"
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 export SUDO_PROMPT="passwd: "
 export TERMINAL="alacritty"
 export BROWSER="brave"
@@ -90,5 +94,11 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # fnm
 eval "$(fnm env --use-on-cd --shell zsh)"
+
+# ruby env
+eval "$(rbenv init - zsh)"
+
+export JAVA_HOME="$(brew --prefix openjdk@11)"
+export PATH="$JAVA_HOME/bin:$PATH"
 
 # vim:ft=zsh:nowrap
